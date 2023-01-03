@@ -1,0 +1,17 @@
+[package]
+name = "thermostat"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+btleplug = "0.10.4"
+dht22_pi = "1.0.0"
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
+log = "0.4.17"
+signal-hook = "0.3.14"
+simple_logger = "4.0.0"
+tokio = { version = "1.23.0", features = ["full"] }
+uuid = "1.2.2"
